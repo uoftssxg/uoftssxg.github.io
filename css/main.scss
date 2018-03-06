@@ -80,6 +80,10 @@ $baseurl: '{{ site.baseurl }}/images';
 		&:hover {
 			border-bottom-color: transparent;
 		}
+
+		&.noline{
+			border-bottom: none;
+		}
 	}
 
 	strong, b {
