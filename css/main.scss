@@ -1599,6 +1599,18 @@ $baseurl: '{{ site.baseurl }}/images';
 				display: none;
 			}
 		}
+
+		.banner_logo {
+			align-self: center;
+			width: 40%;
+			height: 25%;
+
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+
 	}
 
 	body.is-loading {
