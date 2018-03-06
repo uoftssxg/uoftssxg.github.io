@@ -469,7 +469,9 @@ $baseurl: '{{ site.baseurl }}/images';
 		position: relative;
 
 		> .label {
+			@include vendor('transform', 'rotate(45deg)');
 			display: none;
+			font-size: 1em;
 		}
 
 		&.major {
